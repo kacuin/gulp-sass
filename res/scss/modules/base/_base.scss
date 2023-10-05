@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+// * <html> = the root */
+html {
+    font-size: 62.5%;
+    // * (62.5/100) * 16px = 10px */
+}
+
+body {
+    font-family: $font-family;
+    height: 100vh;
+}
+
+main {
+    height: 100%;
+}
+
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+menu,
+ol,
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+dialog {
+    border: none !important;
+}
+
+hr {
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

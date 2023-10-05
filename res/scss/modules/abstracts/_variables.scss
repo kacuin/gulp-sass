@@ -1,0 +1,53 @@
+// * Theme Colors * //
+$primary: #326dee !default;
+$secondary: #1ac886 !default;
+$error: #d32752 !default;
+$info: #f6c31c !default;
+
+// * Colors ** //
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "info": $info,
+    "blue": #1919e6,
+    "red": #e61919,
+    "yellow": #e6e619,
+    "green": #19e635,
+    "orange": #ffa600,
+    "purple": #9900ff,
+    "gray": #808080,
+    "black": black,
+    "white": white,
+) !default;
+
+// * Spacing
+$base-padding: 0.75rem !default;
+$base-margin: 0.75rem !default;
+
+// * Borders
+$base-border-thickness: 1px !default;
+$base-border-radius: 20px !default;
+
+// * Box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
+
+// * Font sizes
+$base-font-size: 1rem !default;
+$font-size-xx-s: $base-font-size * 0.50 !default;
+$font-size-x-s: $base-font-size * 0.75 !default;
+$font-size-sm: $base-font-size * 1 !default;
+$font-size-md: $base-font-size * 1.2 !default;
+$font-size-x-md: $base-font-size * 1.5 !default;
+$font-size-xx-md: $base-font-size * 1.8 !default;
+$font-size-lg: $base-font-size * 2 !default;
+$font-size-x-lg: $base-font-size * 2.2 !default;
+$font-size-xx-lg: $base-font-size * 2.5 !default;
+$font-size-xxx-lg: $base-font-size * 2.8 !default;
+$font-size-display: $base-font-size * 3 !default;
+$font-size-x-display: $base-font-size * 3.6 !default;
+$font-size-xx-display: $base-font-size * 4.8 !default;
+$font-size-ultra-display: $base-font-size * 6 !default;
+$font-size-x-ultra-display: $base-font-size * 7.2 !default;
+$font-size-xx-ultra-display: $base-font-size * 8.4 !default;
+
